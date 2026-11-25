@@ -27,4 +27,4 @@ jobs:
           fi
 
       - name: Lint CSS
-        run: npx stylelint "**/*.css"
+        run: npx stylelint "**/*.css" --allow-empty-input
